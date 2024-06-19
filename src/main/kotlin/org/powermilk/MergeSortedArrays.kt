@@ -41,7 +41,7 @@ fun IntArray.merge(array: IntArray, shouldSort: Boolean = false): IntArray {
 }
 
 /**
- * Function extension to check if array is sorted.
+ * Function extension to check if an array is sorted.
  */
 private fun IntArray.isSorted() = this.contentEquals(this.sortedArray())
 
